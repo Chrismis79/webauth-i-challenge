@@ -7,7 +7,7 @@ router.use('/auth', authRouter);
 router.use('/users', usersRouter);
 
 router.get('/', (req, res) => {
-  res.json({ api: "It's alive" });
+  res.json({ api: "It's working!" });
 });
 
 module.exports = router;
