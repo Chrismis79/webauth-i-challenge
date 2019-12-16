@@ -1,6 +1,6 @@
 const db = require('../database/dbConfig.js');
 
-modules.exports = {
+module.exports = {
     add,
     find,
     findBy,
